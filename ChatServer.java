@@ -38,7 +38,7 @@ class ChatServer {
 
         int port = Integer.parseInt(args[0]);
 
-        Server.start(port, new Handler());
+        Server.start(port, new ChatHandler());
     }
 }
 
